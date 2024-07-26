@@ -9,4 +9,6 @@ def print_numeros(numero:int):
         for i in range(numero, 0, -2):
             print(i)
 
-leer_numero(21)
+numero = leer_numero(21)
+
+print_numeros(numero)
