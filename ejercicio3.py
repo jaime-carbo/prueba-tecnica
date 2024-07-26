@@ -16,7 +16,7 @@ def calcular_sueldo(horas: float, tarifa: float) -> float:
     else:
         raise Exception("Las horas trabajadas no pueden ser negativas")
 
-horas = leer_horas_trabajadas(-10)
+horas = leer_horas_trabajadas(41)
 tarifa = leer_tarifa(20)
 sueldo = calcular_sueldo(horas, tarifa)
 print(sueldo)
